@@ -28,19 +28,87 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 **Procedure**
 
-/* write all the steps invloved */
+1.Type the program in Quartus software.
+
+2.Compile and run the program.
+
+3.Generate the RTL schematic and save the logic diagram.
+
+4.Create nodes for inputs and outputs to generate the timing diagram.
+
+5.For different input combinations generate the timing diagram.
+
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. 
+1.SYNCHRONOUS UPCOUNTER PROGRAM.
 
-Developed by: RegisterNumber:
-*/
+    module UPCOUNTER(out,clk,rst);
+    
+    input clk,rst;
+    
+    output reg [3:0]out;
+    
+    always @ (posedge clk)
+    
+    begin
+    
+    if(rst)
+    
+           out<=0;
+           
+    else 
+    
+        out <= out+1;
+        
+    end
+    
+    endmodule
+
+2.SYNCHRONOUS DOWNCOUNTER PROGRAM.
+
+    module ex12(out,clk,rst);
+    
+     input clk,rst;
+     
+     output reg [3:0]out;
+     
+    always @ (posedge clk)
+    
+    begin
+    
+    if(rst)
+    
+        out<=0;
+     
+    else 
+    
+         out <= out-1;
+    end
+    
+    endmodule
+    
+Developed by:PRASANNA.V RegisterNumber:25008398.
+
 
 **RTL LOGIC UP COUNTER**
 
-**TIMING DIAGRAM FOR IP COUNTER**
+SYNCHRONOUS UPCOUNTER
+
+![WhatsApp Image 2025-12-16 at 20 37 57_331b57cf](https://github.com/user-attachments/assets/f35cec55-1149-4647-9316-7acca6d0e4f8)
+
+
+**TIMING DIAGRAM FOR UP COUNTER**
+
+SYNCHRONOUS UPCOUNTER
+
+![WhatsApp Image 2025-12-16 at 20 51 58_eb609ca8](https://github.com/user-attachments/assets/6b8d1868-990e-4a07-81b9-39230124edbf)
 
 **TRUTH TABLE**
 
+![WhatsApp Image 2025-12-16 at 20 43 54_3a0f173b](https://github.com/user-attachments/assets/04fcfd37-92ca-4811-ab81-86d713e2ffa7)
+
+
 **RESULTS**
+
+Implement 4 bit synchronous up counter and validate functionality is created successfully.
