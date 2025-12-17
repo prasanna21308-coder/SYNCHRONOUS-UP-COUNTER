@@ -97,12 +97,22 @@ SYNCHRONOUS UPCOUNTER
 
 ![WhatsApp Image 2025-12-16 at 20 37 57_331b57cf](https://github.com/user-attachments/assets/f35cec55-1149-4647-9316-7acca6d0e4f8)
 
+SYNCHRONOUS DOWNCOUNTER
+
+<img width="1415" height="753" alt="image" src="https://github.com/user-attachments/assets/5d5f112c-9743-4cff-8f22-bc0735c3cbe1" />
+
+
 
 **TIMING DIAGRAM FOR UP COUNTER**
 
 SYNCHRONOUS UPCOUNTER
 
 ![WhatsApp Image 2025-12-16 at 20 51 58_eb609ca8](https://github.com/user-attachments/assets/6b8d1868-990e-4a07-81b9-39230124edbf)
+
+SYNCHRONOUS DOWNCOUNTER
+
+<img width="1918" height="898" alt="wave11d" src="https://github.com/user-attachments/assets/ae4b0b48-f1a5-4f4e-a83d-0aaa8125055c" />
+
 
 **TRUTH TABLE**
 
